@@ -7,8 +7,8 @@ import { Reveal } from '../ui/Reveal';
 import { SectionHeading } from '../ui/SectionHeading';
 
 const stats = [
-  { value: '4', label: 'Years' },
-  { value: '20', label: 'Projects' },
+  { value: '1', label: 'Years' },
+  { value: '5', label: 'Projects' },
   { value: '10', label: 'Stacks' },
 ];
 
@@ -34,7 +34,7 @@ export function AboutSection() {
               />
               <div>
                 <h3 className="font-display text-2xl font-semibold text-white">{profileName}</h3>
-                <p className="mt-2 text-sm text-slate-300">{profileTagline} • UI/UX focused frontend engineer</p>
+                <p className="mt-2 text-sm text-slate-300">{profileTagline} •</p>
               </div>
               <div className="grid w-full gap-3 sm:grid-cols-3">
                 {stats.map((stat) => (
